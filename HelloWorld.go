@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"myproject/contacts"
+)
 
 const (
 	one = (iota * 2) + 1
@@ -13,4 +17,7 @@ const (
 
 func main() {
 	fmt.Println(one, three, five, seven, nine, eleven)
+	contacts.SetSupport("Служба поддержки")
+	//fmt.Println(contacts.GetContact())
+	fmt.Println("Email:", contacts.Email)
 }
