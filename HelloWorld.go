@@ -5,20 +5,6 @@ import (
 	"time"
 )
 
-// var j, i = 10, "hello"
-// const height uint8 = iota + 1
-
-// const VER string = "v1.1.1"
-
-// const (
-// 	one = (iota * 2) + 1
-// 	three
-// 	five
-// 	seven
-// 	nine
-// 	eleven
-// )
-
 func main() {
 	var a int
 	fmt.Scanf("%d", &a)
